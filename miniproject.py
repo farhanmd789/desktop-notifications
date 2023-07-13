@@ -13,3 +13,18 @@ while True:
                         app_icon='D:\glass.ico',
                         timeout=3)
     time.sleep(20)
+    notification.notify(title='Remove Earphones',
+                        message="Damages Ear for keeping longtime",
+                        app_icon='D:\ear.ico',
+                        timeout=3)
+    time.sleep(5)
+    notification.notify(title='KEEP YOUR POSTURE STRAIGHT',
+                        message="poor posture can be bad for your health",
+                        app_icon='D:\BODY.ico',
+                        timeout=2)
+    time.sleep(15)
+    notification.notify(title='GO TO SLEEP',
+                        message="It's too late shutdown and go to bed",
+                        app_icon='D:\BED.ico',
+                        timeout=4)
+    time.sleep(30)
